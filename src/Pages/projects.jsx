@@ -1,10 +1,8 @@
-import odontoImg from '../assets/odonto.png';
-import portfolioImg from '../assets/portifolio.png';
 
 function Projects(){
     const projectData = [
         {
-            image: odontoImg,
+            image: "/Img/odonto.png",
             title: "Odonto+Care",
             description: "Website institucional para a clínica odontológica Odonto+Care, focado em apresentar os serviços e facilitar o agendamento de consultas.",
             tags: ['HTML', 'Tailwind CSS', 'JavaScript'],
@@ -12,7 +10,7 @@ function Projects(){
             aos: "fade-up"
         },
         {
-            image: portfolioImg,
+            image: "/Img/portifolio.png",
             title: "Portfólio Pessoal",
             description: "Meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e trajetória. Este é o site que você está navegando agora.",
             tags: ['React', 'Tailwind CSS'],
