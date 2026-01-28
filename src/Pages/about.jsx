@@ -25,7 +25,7 @@ function About(){
 
     return(
         <>
-        <section id="sobre" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24">
+        <section id="sobre" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24 overflow-x-hidden">
             <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-16 items-start">
                 <div className="md:col-span-2">
                     <h2 data-aos="fade-up" data-aos-duration="1500" className="text-3xl md:text-4xl font-bold mb-6 text-white">Sobre Mim</h2>

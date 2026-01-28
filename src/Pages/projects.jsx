@@ -22,7 +22,7 @@ function Projects(){
 
     return(
         <>
-        <section id="projectos" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24">
+        <section id="projectos" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24 overflow-x-hidden">
             <div className="max-w-7xl mx-auto">
                 <h2 data-aos="fade-up" data-aos-duration="1500" className="text-3xl md:text-4xl font-bold mb-4 text-white">
                     Projectos
