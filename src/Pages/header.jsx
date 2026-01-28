@@ -12,7 +12,7 @@ function Header(){
     ];
 
     return(
-       <nav className="fixed z-[999] w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800 text-white py-4 transition-all duration-300">
+       <nav className="fixed top-0 left-0 z-[999] w-full bg-slate-950/80 backdrop-blur-md border-b border-slate-800 text-white py-4 transition-all duration-300">
          <div className="container px-4 sm:px-8 md:px-12 lg:px-20 flex justify-between items-center mx-auto">
            <div>
              <p className="font-bold text-xl tracking-tight">Filipe Mafuila</p>
