@@ -5,7 +5,7 @@ function Service(){
             status: "Ativo",
             statusColor: "green",
             title: "Desenvolvimento de sites responsivos",
-            description: "Criação de sites modernos, responsivos e leves para empresas, projetos pessoais, portfólios ou páginas de apresentação profissional.",
+            description: "Criação de sites modernos, responsivos e leves para empresas, projectos pessoais, portfólios ou páginas de apresentação profissional.",
             aos: "fade-right"
         },
         {

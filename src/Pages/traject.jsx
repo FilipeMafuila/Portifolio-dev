@@ -14,8 +14,8 @@ function Traject(){
         },
         {
             icon: "fa-solid fa-code-branch",
-            title: "Projetos Práticos",
-            description: "Ao longo do meu aprendizado, desenvolvi diversos projetos práticos que me permitiram aplicar os conceitos aprendidos e ganhar experiência real no desenvolvimento de interfaces de usuário.",
+            title: "Projectos Práticos",
+            description: "Ao longo do meu aprendizado, desenvolvi diversos projectos práticos que me permitiram aplicar os conceitos aprendidos e ganhar experiência real no desenvolvimento de interfaces de usuário.",
             aos: "fade-right"
         },
         {
@@ -26,8 +26,8 @@ function Traject(){
         },
         {
             icon: "fa-solid fa-briefcase",
-            title: "Estagios Tech",
-            description: "Consegui estágios em empresa de tecnologia, onde pude trabalhar em projetos reais, colaborar com equipes de desenvolvimento e aprimorar minhas habilidades técnicas e profissionais.",
+            title: "Estágios Tech",
+            description: "Consegui estágios em empresa de tecnologia, onde pude trabalhar em projectos reais, colaborar com equipes de desenvolvimento e aprimorar minhas habilidades técnicas e profissionais.",
             aos: "fade-right"
         }
     ];

@@ -2,7 +2,7 @@ function About(){
     const stats = [
         {
             icon: "fa-solid fa-code",
-            title: "Projetos Concluídos",
+            title: "Projectos Concluídos",
             value: "4",
             description: "Web, UI, Social Media",
             aos: "fade-right"

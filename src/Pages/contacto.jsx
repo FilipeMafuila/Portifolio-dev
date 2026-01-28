@@ -7,8 +7,8 @@ function Contacto(){
         <section id="contacto" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24">
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-start">
                 <div className="text-left">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Contato</h2>
-                    <p className="text-xl mb-8 text-slate-300 text-justify">Tem um projeto em mente ou quer dizer olá? Use minhas informações de contato ou preencha o formulário e vamos conversar.</p>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Contacto</h2>
+                    <p className="text-xl mb-8 text-slate-300 text-justify">Tem um projecto em mente ou quer dizer olá? Use minhas informações de contacto ou preencha o formulário e vamos conversar.</p>
                     
                     <ul className="space-y-6 mt-12 text-slate-300">
                         <li className="flex items-center gap-4">
