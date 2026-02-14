@@ -17,6 +17,14 @@ function Projects(){
             link: "#", // Atualize com o link do seu portfólio quando estiver online
             aos: "fade-up"
         },
+        {
+            image: "/Img/cln.png",
+            title: "Clube AS",
+            description: "Website desenvolvido para um clube de leitura, focado em conectar leitores, organizar encontros e compartilhar experiências literárias.",
+            tags: ['Html', 'Tailwind CSS','Javascript' ],
+            link: "https://clubeas.vercel.app/",
+            aos: "fade-up"
+        },
         // Adicione mais projetos aqui no futuro
     ];
 
