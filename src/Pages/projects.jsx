@@ -19,7 +19,7 @@ function Projects(){
         },
         {
             image: "/Img/cln.png",
-            title: "Clube AS",
+            title: "Clube CLN",
             description: "Website desenvolvido para um clube de leitura, focado em conectar leitores, organizar encontros e compartilhar experiências literárias.",
             tags: ['Html', 'Tailwind CSS','Javascript' ],
             link: "https://clubeas.vercel.app/",
