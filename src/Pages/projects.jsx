@@ -30,7 +30,7 @@ function Projects(){
             title: "Leopldo Lemos",
             description: "Desenvolvimento de plataforma digital para setor imobiliário/construção. Interface moderna com foco em credibilidade e autoridade.",
             tags: ['Html', 'Tailwind CSS','Javascript' ],
-            link: "https://leopoldo-lemosvercel.app/",
+            link: "https://leopoldo-lemos.vercel.app/",
             aos: "fade-up"
         },
         // Adicione mais projetos aqui no futuro
