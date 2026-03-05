@@ -26,7 +26,7 @@ function Projects(){
             aos: "fade-up"
         },
          {
-            image: "/Img/cln.png",
+            image: "/Img/leopoldo.png",
             title: "Leopldo Lemos",
             description: "Desenvolvimento de plataforma digital para setor imobiliário/construção. Interface moderna com foco em credibilidade e autoridade.",
             tags: ['Html', 'Tailwind CSS','Javascript' ],
