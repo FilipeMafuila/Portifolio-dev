@@ -10,6 +10,7 @@ function Header(){
       { href: '#skills', text: 'Skills' },
       { href: '#servicos', text: 'Serviços' },
       { href: '#projectos', text: 'Projectos' },
+      { href: '#galeria', text: 'Galeria' },
       { href: '#contacto', text: 'Contacto' },
     ];
 

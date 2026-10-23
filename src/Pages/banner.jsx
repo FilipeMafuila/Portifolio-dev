@@ -4,9 +4,6 @@ function Banner(){
         <section id="banner" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-20 min-h-screen flex items-center overflow-x-hidden">
             <div className="flex flex-col md:flex-row justify-between items-center w-full gap-12">
                 <div className="w-full md:w-1/2 text-center md:text-left">
-                    <span className="inline-block py-1 px-3.5 mb-4 text-xs sm:text-sm font-semibold tracking-wider text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 rounded-full">
-                        Disponível para novos projectos
-                    </span>
                     <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-4 text-white tracking-tight">
                         Filipe Mafuila
                     </h1>

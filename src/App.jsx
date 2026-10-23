@@ -2,6 +2,7 @@ import About from "./Pages/about"
 import Banner from "./Pages/banner"
 import Contacto from "./Pages/contacto"
 import Footer from "./Pages/footer"
+import Gallery from "./Pages/Gallery"
 import Header from "./Pages/header"
 import Projects from "./Pages/projects"
 import Service from "./Pages/service"
@@ -18,6 +19,7 @@ function App() {
      <Skills />
      <Service />
      <Projects />
+     <Gallery />
      <Contacto />
      <Footer />
     </>
