@@ -4,32 +4,32 @@ function Service(){
             icon: "fa-solid fa-desktop",
             status: "Ativo",
             statusColor: "green",
-            title: "Desenvolvimento de sites responsivos",
-            description: "Criação de sites modernos, responsivos e leves para empresas, projectos pessoais, portfólios ou páginas de apresentação profissional.",
+            title: "Desenvolvimento de Sites & Sistemas",
+            description: "Criação de websites modernos, responsivos e sistemas completos para empresas, instituições educacionais (como UAN), consultorias e ginásios.",
+            aos: "fade-right"
+        },
+        {
+            icon: "fa-solid fa-robot",
+            status: "Ativo",
+            statusColor: "green",
+            title: "Automação de Processos & Chatbots",
+            description: "Construção de chatbots inteligentes, fluxos de respostas automáticas para atendimento a clientes no website e automação de processos corporativos.",
             aos: "fade-right"
         },
         {
             icon: "fa-solid fa-wand-magic-sparkles",
             status: "Ativo",
             statusColor: "green",
-            title: "Criação de interfaces modernas e funcionais",
-            description: "Desenvolvimento de interfaces intuitivas e visualmente atraentes que proporcionem uma experiência excepcional aos usuários.",
-            aos: "fade-right"
-        },
-        {
-            icon: "fa-solid fa-bullhorn",
-            status: "Processando...",
-            statusColor: "orange",
-            title: "Serviços de Marketing e Social Media",
-            description: "Desenvolvimento de estratégias de marketing digital, gestão de redes sociais e criação de conteúdo para aumentar a presença online.",
+            title: "UI Design & Interfaces Funcionais",
+            description: "Desenvolvimento de interfaces intuitivas, modernas e visualmente atraentes com React e Tailwind CSS, proporcionando excelente experiência ao usuário.",
             aos: "fade-left"
         },
         {
-            icon: "fa-solid fa-chalkboard-user",
+            icon: "fa-solid fa-gears",
             status: "Ativo",
             statusColor: "green",
-            title: "Mentoria para iniciantes",
-            description: "Orientação e suporte para quem está começando no desenvolvimento front-end, ajudando a construir uma base sólida.",
+            title: "Integrações & Otimização Web",
+            description: "Conexão de APIs, respostas automáticas para clientes, melhorias de velocidade e suporte técnico com base na experiência prática em TI.",
             aos: "fade-left"
         }
     ];
@@ -45,7 +45,7 @@ function Service(){
             <div className="max-w-7xl mx-auto">
                 <h2 data-aos="fade-up" data-aos-duration="1500" className="text-3xl md:text-4xl font-bold mb-4 text-white">Serviços</h2>
                 <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" className="text-xl mb-16 max-w-3xl text-slate-300 text-justify">
-                    Ofereço serviços de desenvolvimento front-end utilizando as mais recentes tecnologias. Meu foco é criar interfaces de usuário responsivas, intuitivas e visualmente atraentes.
+                    Ofereço soluções completas em desenvolvimento front-end, sistemas sob medida e automação inteligente de processos para impulsionar negócios e instituições.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {services.map((service, index) => (
@@ -72,7 +72,7 @@ function Service(){
                     ))}
                 </div>
                 <p data-aos="fade-up" data-aos-duration="1500" className="text-xl mt-12 max-w-3xl text-slate-300 text-justify">
-                    Estou comprometido em entregar soluções de alta qualidade. Se você está procurando um desenvolvedor front-end dedicado e apaixonado, estou aqui para ajudar!
+                    Pronto para transformar seus processos com interfaces modernas e automações que geram resultados.
                 </p>
             </div>
         </section>

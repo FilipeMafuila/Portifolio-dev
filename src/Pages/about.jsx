@@ -1,24 +1,24 @@
 function About(){
     const stats = [
         {
-            icon: "fa-solid fa-code",
+            icon: "fa-solid fa-layer-group",
             title: "Projectos Concluídos",
-            value: "4",
-            description: "Web, UI, Social Media",
+            value: "6+",
+            description: "Web, Sistemas & Automações",
             aos: "fade-right"
         },
         {
-            icon: "fa-solid fa-graduation-cap",
-            title: "Certificados",
-            value: "4",
-            description: "Certificados adquiridos",
+            icon: "fa-solid fa-briefcase",
+            title: "Experiência em TI",
+            value: "1.5+",
+            description: "Anos em empresa de tecnologia",
             aos: "fade-up"
         },
         {
-            icon: "fa-solid fa-calendar-plus",
-            title: "Anos de Experiência",
-            value: "1+",
-            description: "Continuando a jornada",
+            icon: "fa-solid fa-robot",
+            title: "Automações & Chatbots",
+            value: "100%",
+            description: "Respostas e rotinas automatizadas",
             aos: "fade-left"
         }
     ];
@@ -31,21 +31,21 @@ function About(){
                     <h2 data-aos="fade-up" data-aos-duration="1500" className="text-3xl md:text-4xl font-bold mb-6 text-white">Sobre Mim</h2>
                     <div className="flex flex-col gap-6 text-xl leading-relaxed text-slate-300">
                         <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" className="text-justify">
-                            Sou um desenvolvedor front-end apaixonado por criar interfaces modernas e funcionais. Com foco em React, JavaScript e Tailwind CSS, transformo ideias em experiências digitais simples e bonitas.
+                            Sou um desenvolvedor front-end com mais de 1 ano e meio de experiência profissional em empresa de TI. Especializado em React, JavaScript moderno e Tailwind CSS, transformo desafios técnicos em interfaces digitais elegantes, rápidas e funcionais.
                         </p>
                         <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" className="text-justify">
-                            Minha jornada no desenvolvimento web começou com a busca por soluções que priorizem a performance e a usabilidade. Estou sempre em busca de novos desafios para aprimorar minhas habilidades técnicas.
+                            Em meu percurso prático, já desenvolvi soluções de grande impacto, incluindo projectos para a Faculdade de Medicina da Universidade Agostinho Neto (UAN), plataformas web para duas empresas de consultoria e sistema completo com website para ginásio.
                         </p>
                         <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" className="text-justify">
-                            Além do desenvolvimento, tenho interesse em UI design, o que me permite criar interfaces que não são apenas funcionais, mas também visualmente atraentes.
+                            Além do desenvolvimento web e UI design, sou especialista em automação de processos, criação de chatbots inteligentes e respostas automáticas para clientes em sites, garantindo atendimento instantâneo e otimização de rotinas para empresas e negócios.
                         </p>
                     </div>
-                    <div data-aos="fade-up" data-aos-delay="400" className="flex gap-4 mt-10 justify-start">
-                        <a href="#contacto" className="bg-indigo-800 hover:bg-indigo-700 text-white font-medium transition-all duration-300 py-3 px-8 shadow-lg border border-indigo-700/50 rounded-lg flex items-center gap-2">
-                            Fale Comigo <i className="fa-solid fa-comment-dots text-xs"></i>
+                    <div data-aos="fade-up" data-aos-delay="400" className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-10 justify-start w-full sm:w-auto">
+                        <a href="#contacto" className="bg-indigo-800 hover:bg-indigo-700 text-white font-medium transition-all duration-300 py-3 px-6 sm:px-8 shadow-lg border border-indigo-700/50 rounded-lg flex items-center justify-center gap-2 w-full sm:w-auto text-center whitespace-nowrap">
+                            Fale Comigo <i className="fa-solid fa-paper-plane text-xs"></i>
                         </a>
-                         <a href="/cv_filipe_mafuila.pdf" download className="bg-slate-800 hover:bg-slate-700 text-white font-medium transition-all duration-300 py-3 px-8 shadow-lg rounded-lg flex items-center gap-2">
-                            Baixar CV <i className="fa-solid fa-file-pdf text-xs"></i>
+                         <a href="/cv_filipe_mafuila.pdf" download className="bg-slate-800 hover:bg-slate-700 text-white font-medium transition-all duration-300 py-3 px-6 sm:px-8 shadow-lg rounded-lg flex items-center justify-center gap-2 w-full sm:w-auto text-center whitespace-nowrap">
+                            Baixar CV <i className="fa-solid fa-download text-xs"></i>
                          </a>
                     </div>
                 </div>
@@ -72,4 +72,4 @@ function About(){
         </>
     )
 }
-export default About
+export default About;

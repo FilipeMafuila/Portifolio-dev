@@ -4,11 +4,13 @@ function Contacto(){
     const [state, handleSubmit] = useForm("mwvbkoly");
 
    return(
-        <section id="contacto" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24">
+        <section id="contacto" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24 overflow-x-hidden">
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-start">
                 <div className="text-left">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Contacto</h2>
-                    <p className="text-xl mb-8 text-slate-300 text-justify">Tem um projecto em mente ou quer dizer olá? Use minhas informações de contacto ou preencha o formulário e vamos conversar.</p>
+                    <p className="text-xl mb-8 text-slate-300 text-justify">
+                        Tem um projecto em mente, precisa de um website de alto padrão ou deseja automatizar o atendimento e processos do seu negócio? Entre em contacto e vamos conversar.
+                    </p>
                     
                     <ul className="space-y-6 mt-12 text-slate-300">
                         <li className="flex items-center gap-4">
@@ -29,7 +31,7 @@ function Contacto(){
                     </ul>
                 </div>
 
-                <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-8">
+                <div className="bg-slate-900/50 border border-slate-800 rounded-xl p-5 sm:p-8">
                     {state.succeeded ? (
                         <div className="text-center py-8">
                             <i className="fa-solid fa-circle-check text-5xl text-emerald-500 mb-4"></i>
@@ -39,7 +41,9 @@ function Contacto(){
                     ) : (
                     <form onSubmit={handleSubmit} className="flex flex-col gap-5 text-left">
                         <div>
-                            <label htmlFor="name" className="block mb-2 text-base font-medium text-slate-300">Nome</label>
+                            <label htmlFor="name" className="block mb-2 text-base font-medium text-slate-300 flex items-center gap-2">
+                                <i className="fa-solid fa-user text-indigo-400 text-xs"></i> Nome
+                            </label>
                             <input 
                                 type="text" 
                                 id="name"
@@ -51,7 +55,9 @@ function Contacto(){
                             <ValidationError prefix="Nome" field="name" errors={state.errors} className="text-red-400 text-sm mt-1" />
                         </div>
                         <div>
-                            <label htmlFor="email" className="block mb-2 text-base font-medium text-slate-300">Email</label>
+                            <label htmlFor="email" className="block mb-2 text-base font-medium text-slate-300 flex items-center gap-2">
+                                <i className="fa-solid fa-envelope text-indigo-400 text-xs"></i> Email
+                            </label>
                             <input 
                                 type="email" 
                                 id="email"
@@ -63,7 +69,9 @@ function Contacto(){
                             <ValidationError prefix="Email" field="email" errors={state.errors} className="text-red-400 text-sm mt-1" />
                         </div>
                         <div>
-                            <label htmlFor="message" className="block mb-2 text-base font-medium text-slate-300">Mensagem</label>
+                            <label htmlFor="message" className="block mb-2 text-base font-medium text-slate-300 flex items-center gap-2">
+                                <i className="fa-solid fa-message text-indigo-400 text-xs"></i> Mensagem
+                            </label>
                             <textarea 
                                 id="message"
                                 name="message"
@@ -73,8 +81,22 @@ function Contacto(){
                             ></textarea>
                             <ValidationError prefix="Mensagem" field="message" errors={state.errors} className="text-red-400 text-sm mt-1" />
                         </div>
-                        <button type="submit" disabled={state.submitting} className="bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-800/50 disabled:cursor-not-allowed text-white font-medium transition-all duration-300 py-3 px-8 shadow-lg shadow-indigo-500/20 rounded-lg w-full flex justify-center items-center gap-2">
-                            {state.submitting ? 'Enviando...' : 'Enviar Mensagem'}
+                        <button 
+                            type="submit" 
+                            disabled={state.submitting} 
+                            className="bg-indigo-600 hover:bg-indigo-700 disabled:bg-indigo-800/50 disabled:cursor-not-allowed text-white font-medium transition-all duration-300 py-3 px-6 sm:px-8 shadow-lg shadow-indigo-500/20 rounded-lg w-full flex justify-center items-center gap-2 text-center whitespace-nowrap cursor-pointer"
+                        >
+                            {state.submitting ? (
+                                <>
+                                    <i className="fa-solid fa-circle-notch fa-spin text-sm"></i>
+                                    <span>Enviando...</span>
+                                </>
+                            ) : (
+                                <>
+                                    <span>Enviar Mensagem</span>
+                                    <i className="fa-solid fa-paper-plane text-xs"></i>
+                                </>
+                            )}
                         </button>
                     </form>
                     )}
@@ -83,4 +105,4 @@ function Contacto(){
         </section>
     )
 }
-export default Contacto
+export default Contacto;

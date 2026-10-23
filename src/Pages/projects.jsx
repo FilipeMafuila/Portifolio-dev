@@ -1,4 +1,3 @@
-
 function Projects(){
     const projectData = [
         {
@@ -14,26 +13,25 @@ function Projects(){
             title: "Portfólio Pessoal",
             description: "Meu portfólio pessoal, desenvolvido para apresentar minhas habilidades, projetos e trajetória. Este é o site que você está navegando agora.",
             tags: ['React', 'Tailwind CSS'],
-            link: "#", // Atualize com o link do seu portfólio quando estiver online
+            link: "#",
             aos: "fade-up"
         },
         {
             image: "/Img/cln.png",
             title: "Clube CLN",
             description: "Website desenvolvido para um clube de leitura, focado em conectar leitores, organizar encontros e compartilhar experiências literárias.",
-            tags: ['Html', 'Tailwind CSS','Javascript' ],
+            tags: ['HTML', 'Tailwind CSS', 'JavaScript'],
             link: "https://clubeas.vercel.app/",
             aos: "fade-up"
         },
-         {
+        {
             image: "/Img/leopoldo.png",
-            title: "Leopldo Lemos",
+            title: "Leopoldo Lemos",
             description: "Desenvolvimento de plataforma digital para setor imobiliário/construção. Interface moderna com foco em credibilidade e autoridade.",
-            tags: ['Html', 'Tailwind CSS','Javascript' ],
+            tags: ['HTML', 'Tailwind CSS', 'JavaScript'],
             link: "https://leopoldo-lemos.vercel.app/",
             aos: "fade-up"
-        },
-        // Adicione mais projetos aqui no futuro
+        }
     ];
 
     return(
@@ -44,7 +42,7 @@ function Projects(){
                     Projectos
                 </h2>
                 <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" className="text-xl mb-16 max-w-3xl text-slate-300 text-justify">
-                    Aqui estão alguns dos meus projectos recentes que demonstram minhas habilidades em desenvolvimento front-end e design de interfaces.
+                    Aqui estão alguns dos meus projectos recentes que demonstram minhas habilidades em desenvolvimento front-end, sistemas digitais e design de interfaces.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     {projectData.map((project, index) => (
@@ -53,23 +51,32 @@ function Projects(){
                             data-aos={project.aos}
                             data-aos-offset="100"
                             data-aos-duration="1500"
-                            className="group bg-slate-900/50 border border-slate-800 rounded-xl overflow-hidden transition-all duration-300 hover:border-indigo-500/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-indigo-500/10"
+                            className="group bg-slate-900/50 border border-slate-800 rounded-xl overflow-hidden transition-all duration-300 hover:border-indigo-500/50 hover:-translate-y-1 hover:shadow-2xl hover:shadow-indigo-500/10 flex flex-col"
                         >
                             <div className="overflow-hidden">
                                 <img src={project.image} alt={`Imagem do projeto ${project.title}`} className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" />
                             </div>
-                            <div className="p-6 flex flex-col">
-                                <h3 className="font-bold text-2xl mb-2 text-white">{project.title}</h3>
-                                <p className="text-base leading-relaxed text-slate-300 flex-grow mb-4 text-justify">{project.description}</p>
-                                <div className="flex flex-wrap gap-2 mb-6">
-                                    {project.tags.map(tag => (
-                                        <span key={tag} className="bg-slate-800 text-slate-300 text-sm font-medium px-3 py-1 rounded-full">{tag}</span>
-                                    ))}
+                            <div className="p-6 flex flex-col flex-grow justify-between">
+                                <div>
+                                    <h3 className="font-bold text-2xl mb-2 text-white">{project.title}</h3>
+                                    <p className="text-base leading-relaxed text-slate-300 mb-4 text-justify">{project.description}</p>
+                                    <div className="flex flex-wrap gap-2 mb-6">
+                                        {project.tags.map(tag => (
+                                            <span key={tag} className="bg-slate-800 text-slate-300 text-xs sm:text-sm font-medium px-3 py-1 rounded-full">{tag}</span>
+                                        ))}
+                                    </div>
                                 </div>
-                                <a href={project.link} target="_blank" rel="noopener noreferrer" className="text-indigo-400 hover:text-white font-medium inline-flex items-center gap-2 transition-colors self-start">
-                                    Ver projecto
-                                    <i className="fa-solid fa-arrow-up-right-from-square text-sm"></i>
-                                </a>
+                                <div>
+                                    <a 
+                                        href={project.link} 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        className="inline-flex items-center gap-2 text-indigo-300 hover:text-white font-medium py-2.5 px-5 rounded-lg bg-indigo-950/50 hover:bg-indigo-900/70 border border-indigo-800/50 transition-all duration-300 text-sm whitespace-nowrap"
+                                    >
+                                        <span>Ver projecto</span>
+                                        <i className="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     ))}
