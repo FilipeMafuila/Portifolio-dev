@@ -28,6 +28,7 @@ function Projects(){
             tags: ["Dashboard de Performance", "Gestão de Treinos", "Acesso Privado"],
             link: null,
             isPrivate: true,
+            privateNote: "Plataforma privada restrita a atletas e preparador físico",
             aos: "fade-up"
         },
         {
@@ -36,8 +37,9 @@ function Projects(){
             desafio: "Unir a experiência digital do cliente à gestão completa do restaurante, sem fragmentar reservas, mesas, cardápio e pedidos.",
             solucao: "Os clientes consultam o cardápio, fazem pedidos, reservam mesas e podem escolher a mesa pelo QR Code, recebendo confirmação da reserva pelo WhatsApp. No painel administrativo, a equipa cadastra mesas e pratos, confirma reservas, aceita e acompanha pedidos e consulta o faturamento num só lugar.",
             tags: ["Painel Administrativo", "Pedidos & Reservas", "Cardápio com QR Code"],
-            link: "https://mohamed-gostoso.vercel.app/",
-            isPrivate: false,
+            link: null,
+            isPrivate: true,
+            privateNote: "Sistema de gestão interno restrito à equipa do restaurante",
             aos: "fade-up"
         }
     ];
@@ -130,7 +132,7 @@ function Projects(){
                                     ) : (
                                         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 p-3 rounded-xl bg-slate-950/40 border border-slate-800">
                                             <span className="inline-flex items-center gap-2 text-xs font-medium text-slate-400">
-                                                <i className="fa-solid fa-shield-halved text-amber-400"></i> Plataforma com acesso restrito a atletas e preparador
+                                                <i className="fa-solid fa-shield-halved text-amber-400"></i> {project.privateNote || "Sistema privado com acesso restrito"}
                                             </span>
                                             <a 
                                                 href="#contacto" 
