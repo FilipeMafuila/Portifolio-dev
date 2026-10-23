@@ -4,7 +4,7 @@ function Contacto(){
     const [state, handleSubmit] = useForm("mwvbkoly");
 
    return(
-        <section id="contacto" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24 overflow-x-hidden">
+        <section id="contacto" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 pt-10 sm:pt-14 pb-16 sm:pb-20 overflow-x-hidden border-t border-slate-900/80">
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-start">
                 <div className="text-left">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Contacto</h2>

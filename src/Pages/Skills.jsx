@@ -9,6 +9,9 @@ import {
   Palette,
   Wind,
   Flame,
+  ShieldCheck,
+  Server,
+  Activity,
   Workflow,
   Zap,
   Webhook,
@@ -39,6 +42,10 @@ const categories = [
     accentColor: 'text-amber-400',
     skills: [
       { name: 'Firebase', icon: Flame },
+      { name: 'Firebase Auth', icon: ShieldCheck },
+      { name: 'Cloud Firestore', icon: Database },
+      { name: 'Realtime Database', icon: Activity },
+      { name: 'Firebase Hosting', icon: Server },
     ],
   },
   {
@@ -68,13 +75,13 @@ const categories = [
 
 function Skills() {
   return (
-    <section id="skills" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24 overflow-x-hidden">
+    <section id="skills" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 pt-10 sm:pt-14 pb-12 sm:pb-16 overflow-x-hidden border-t border-slate-900/80">
       <div className="max-w-7xl mx-auto">
         <h2 data-aos="fade-up" data-aos-duration="1500" className="text-3xl md:text-4xl font-bold mb-4 text-white">
           Habilidades & Tecnologias
         </h2>
-        <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" className="text-xl mb-16 max-w-3xl text-slate-300 text-justify">
-          Competências técnicas organizadas por áreas de especialização, unindo desenvolvimento web moderno, engenharia de dados, automações de processos e design de interfaces.
+        <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" className="text-lg sm:text-xl mb-10 sm:mb-12 max-w-3xl text-slate-300 text-justify">
+          Competências técnicas organizadas por áreas de especialização, unindo desenvolvimento web moderno, engenharia de dados com Firebase, automações de processos e design de interfaces.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -143,4 +150,3 @@ function Skills() {
 }
 
 export default Skills;
-

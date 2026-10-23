@@ -1,7 +1,7 @@
 function Projects(){
     const projectData = [
         {
-            image: "/Img/leopoldo.png", // Imagem temporária até upload da foto
+            image: "/Img/nexora.png",
             title: "Nexora Consulting — Formação & Consultoria",
             desafio: "Apresentar formações profissionais e serviços de consultoria num percurso claro para pessoas e empresas.",
             solucao: "Website responsivo que reúne serviços, cursos, informações de investimento e contacto direto com a equipa.",
@@ -11,7 +11,7 @@ function Projects(){
             aos: "fade-up"
         },
         {
-            image: "/Img/cln.png", // Imagem temporária até upload da foto
+            image: "/Img/updata.png",
             title: "UPDATA — Consultoria & Formação em Dados",
             desafio: "Apresentar serviços de consultoria em dados para empresas e formação prática para profissionais.",
             solucao: "Website responsivo que organiza as áreas Corporate e Academy, partilha recursos e facilita o agendamento de diagnósticos.",
@@ -21,7 +21,7 @@ function Projects(){
             aos: "fade-up"
         },
         {
-            image: "/Img/odonto.png", // Imagem temporária até upload da foto
+            image: "/Img/performance-specialist.png",
             title: "Performance Specialist",
             desafio: "Modernizar o acompanhamento da performance desportiva e substituir processos manuais, mantendo o acesso restrito ao preparador físico.",
             solucao: "Plataforma privada que centraliza atletas, treinos, avaliações e testes físicos. O dashboard acompanha carga e intensidade de treino, frequência cardíaca, composição corporal, sono, alimentação, hidratação e estado emocional, com histórico de evolução e partilha de treinos pelo WhatsApp.",
@@ -31,7 +31,7 @@ function Projects(){
             aos: "fade-up"
         },
         {
-            image: "/Img/portifolio.png", // Imagem temporária até upload da foto
+            image: "/Img/mohamed-gostoso.png",
             title: "Mohamed Gostoso — Sistema de Gestão de Restaurante",
             desafio: "Unir a experiência digital do cliente à gestão completa do restaurante, sem fragmentar reservas, mesas, cardápio e pedidos.",
             solucao: "Os clientes consultam o cardápio, fazem pedidos, reservam mesas e podem escolher a mesa pelo QR Code, recebendo confirmação da reserva pelo WhatsApp. No painel administrativo, a equipa cadastra mesas e pratos, confirma reservas, aceita e acompanha pedidos e consulta o faturamento num só lugar.",
@@ -44,9 +44,9 @@ function Projects(){
 
     return(
         <>
-        <section id="projectos" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24 overflow-x-hidden">
+        <section id="projectos" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 pt-10 sm:pt-14 pb-12 sm:pb-16 overflow-x-hidden border-t border-slate-900/80">
             <div className="max-w-7xl mx-auto">
-                <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-12 gap-6">
                     <div>
                         <h2 data-aos="fade-up" data-aos-duration="1500" className="text-3xl md:text-4xl font-bold mb-4 text-white">
                             Projectos em Destaque

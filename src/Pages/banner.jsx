@@ -22,12 +22,6 @@ function Banner(){
                             Ver Projectos <i className="fa-solid fa-arrow-up-right-from-square text-xs"></i>
                         </a>
                     </div>
-
-                    <div className="flex gap-5 mt-8 justify-center md:justify-start">
-                       <a href="https://www.linkedin.com/in/filipe-mafuila/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" className="p-2 -m-2"><i className="fa-brands fa-linkedin text-2xl text-slate-300 hover:text-white transition-colors"></i></a>
-                       <a href="https://github.com/FilipeMafuila" aria-label="GitHub" target="_blank" rel="noopener noreferrer" className="p-2 -m-2"><i className="fa-brands fa-square-github text-2xl text-slate-300 hover:text-white transition-colors"></i></a>
-                       <a href="https://www.facebook.com/filipe.mafuila" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="p-2 -m-2"><i className="fa-brands fa-square-facebook text-2xl text-slate-300 hover:text-white transition-colors"></i></a>
-                    </div>
                 </div>
 
                 <div className="hidden md:flex md:w-1/2 justify-center md:justify-end items-center">

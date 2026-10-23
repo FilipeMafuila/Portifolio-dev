@@ -5,38 +5,38 @@ function Gallery() {
   const slides = [
     {
       id: 1,
-      image: "/Img/leopoldo.png", // Substitua pelo arquivo da foto 1 (ex: /Img/entrega-1.jpg)
+      image: "/Img/nexora.png",
       title: "Entrega Nexora Consulting",
       subtitle: "Apresentação da plataforma institucional e acadêmica",
       tag: "Consultoria & Cursos",
     },
     {
       id: 2,
-      image: "/Img/cln.png", // Substitua pelo arquivo da foto 2 (ex: /Img/entrega-2.jpg)
+      image: "/Img/updata.png",
       title: "Lançamento Plataforma UPDATA",
       subtitle: "Validação de fluxos de consultoria em dados e agendamento",
       tag: "Dados & Treinamento",
     },
     {
       id: 3,
-      image: "/Img/odonto.png", // Substitua pelo arquivo da foto 3 (ex: /Img/entrega-3.jpg)
+      image: "/Img/mohamed-gostoso.png",
       title: "Validação Sistema Mohamed Gostoso",
       subtitle: "Implementação de pedidos via QR Code e gestão de mesas",
       tag: "Restaurante & Gestão",
     },
     {
       id: 4,
-      image: "/Img/portifolio.png", // Substitua pelo arquivo da foto 4 (ex: /Img/entrega-4.jpg)
+      image: "/Img/performance-specialist.png",
       title: "Dashboard Performance Specialist",
       subtitle: "Entrega do painel privado de acompanhamento de atletas",
       tag: "Performance Desportiva",
     },
     {
       id: 5,
-      image: "/Img/leopoldo.png", // Substitua pelo arquivo da foto 5 (ex: /Img/entrega-5.jpg)
-      title: "Projectos Faculdade de Medicina (UAN)",
-      subtitle: "Soluções digitais voltadas para a comunidade acadêmica",
-      tag: "Ensino & Saúde",
+      image: "/Img/nexora.png",
+      title: "Interfaces de Alta Performance",
+      subtitle: "Soluções digitais responsivas com foco em conversão e usabilidade",
+      tag: "Front-End & UX",
     },
   ];
 
@@ -88,9 +88,9 @@ function Gallery() {
   };
 
   return (
-    <section id="galeria" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24 overflow-x-hidden">
+    <section id="galeria" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 pt-10 sm:pt-14 pb-12 sm:pb-16 overflow-x-hidden border-t border-slate-900/80">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-6">
           <div>
             <div className="inline-flex items-center gap-2 py-1 px-3.5 mb-3 text-xs font-semibold tracking-wider text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 rounded-full">
               <Award className="w-3.5 h-3.5" />

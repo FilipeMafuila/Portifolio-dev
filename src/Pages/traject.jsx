@@ -46,10 +46,10 @@ function Traject(){
 
      return(
         <>
-        <section id="trajectoria" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 py-24 overflow-x-hidden">
+        <section id="trajectoria" className="bg-slate-950 text-slate-300 px-4 sm:px-8 md:px-16 lg:px-32 pt-8 sm:pt-12 pb-12 sm:pb-16 overflow-x-hidden border-t border-slate-900/80">
             <div className="max-w-7xl mx-auto">
                 <h2 data-aos="fade-up" data-aos-duration="1500" className="text-3xl md:text-4xl font-bold mb-4 text-white">Trajetória</h2>
-                <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" className="text-xl mb-16 max-w-3xl text-slate-300 text-justify">
+                <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" className="text-lg sm:text-xl mb-10 sm:mb-12 max-w-3xl text-slate-300 text-justify">
                     Uma trajetória construída com desafios reais no mercado de tecnologia, projectos institucionais de peso, automação de processos e desenvolvimento de sistemas eficientes.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
